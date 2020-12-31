@@ -29,3 +29,7 @@ BIOS version
 Get Printer Name, Port, 
 
 `wmic printer get Name, Portname, Default`
+
+---
+
+Reference: https://old.reddit.com/r/sysadmin/comments/3xh7h4/what_is_your_favorite_command/cy4xcm5/
