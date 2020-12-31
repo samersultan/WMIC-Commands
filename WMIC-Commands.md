@@ -30,6 +30,6 @@ Get Printer Name, Port,
 
 `wmic printer get Name, Portname, Default`
 
----
+Updates and Restart System 
 
-Reference: https://old.reddit.com/r/sysadmin/comments/3xh7h4/what_is_your_favorite_command/cy4xcm5/
+`wuauclt /resetauthorization /detectnow /updatenow && shutdown /r /f /t 00`
